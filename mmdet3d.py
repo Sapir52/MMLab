@@ -9,7 +9,6 @@
 !rm -rf mmdetection
 !git clone https://github.com/open-mmlab/mmdetection.git
 # %cd mmdetection
-
 !pip install -e .
 
 from mmcv import collect_env
@@ -50,7 +49,7 @@ def video_mmdet():
       model.show_result(frame, result,show=True)
 
 
-"""#MMDet3D"""
+#MMDet3D
 
 # Commented out IPython magic to ensure Python compatibility.
 !git clone https://github.com/open-mmlab/mmsegmentation.git
